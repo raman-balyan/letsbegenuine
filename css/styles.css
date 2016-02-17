@@ -1,0 +1,365 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+.navbar-default{
+	background-color: white;
+	border-color: transparent;
+  margin-bottom: 0px;
+	
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: gray;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Helvetica;  
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-top: 15px;
+
+}
+
+.header{
+  display: table;
+  margin: 0 auto;
+}
+
+
+.dropdown-menu > li > a {
+  color: gray ;
+  font-weight: 700;
+  font-family: Helvetica;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: inherit;
+  transition: all .5s;
+}
+
+#myCarousel .slider-button1 {
+  right: 47%;
+  text-align: center;
+  left: auto;
+  top: 67%;  
+}
+
+#myCarousel .slider-button2 {
+  right: 15%;
+  text-align: center;
+  max-width: 500px;
+  left: auto;
+  top: 30%;
+}
+
+.thumbnail {
+  border: none;
+}
+
+/* For creating vertical line */
+.vertical-line{
+  border-right: 1px solid #ddd;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.services-heading{
+  color:gray;
+}
+
+.footerIcon{
+	font-size:36px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color:#B2C049;
+}
+
+.text-muted{
+  padding-top: 10px;
+  color: white;
+}
+
+.about{
+  padding-top: 50px;
+}
+
+.client-grid{
+  height: 190px;
+  width: 190px;
+  padding-top: 65px;
+  margin-right: 25px;
+}
+.counselling-img2{
+  width:700px;
+  height:300px; 
+}
+.counselling-img3{
+  width:250px;
+  height:250px; 
+  margin-left: 20px;
+  margin-top: -30px;
+}
+.counselling-para{
+  margin-top: 80px;
+}
+.counselling-icon{
+  font-size: 40px;
+  color:#428bca;
+  margin-right:20px;
+}
+  .counselling-icon2{
+  margin-right:15px;
+}
+.counselling-margin{
+  margin-top: 40px;
+}
+
+.content-img{
+  margin-top: -30px;
+}
+.photography-glyphicon-left{
+  margin-left:280px;
+  color:black;
+  font-size:25px;
+
+}
+.photography-glyphicon-right{
+  color:black;
+  font-size:25px;
+  margin-left: 500px;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+  h2{
+    font-size: 24px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .btn{
+    padding: 4px 8px;
+    margin-top: -6px;
+  }
+  .btn-lg{
+    padding: 4px 8px;
+    margin-top: -12px;
+  }
+  .footerIcon{
+  font-size:28px;
+  padding-left: 5px;
+  }
+  .about{
+    padding-top: 10px;
+  }
+  .img-about{
+    min-height: 220px;
+    min-width: 160px;
+  }
+  .client-grid{
+  height: 115px;
+  width: 115px;
+  padding-top: 45px;
+  margin-right: 18px;
+}
+  .client-image{
+    min-height: 35px;
+    min-width: 80px;
+    margin-left: 1px;
+    
+  }
+  .lead{
+    font-size: 16px;
+  }
+  .counselling-icon{
+  font-size: 35px;
+  margin-right:15px;
+}
+
+  .counselling-img{
+  min-height: 260px;
+  min-width: 230px;
+}
+.counselling-img2{
+  max-width:400px;
+  max-height:175px; 
+  margin-right: 5px;
+}
+.counselling-img3{
+  width:200px;
+  height:200px; 
+  margin-left: 0px;
+  margin-top: -30px;
+}
+.counselling-para{
+  margin-top: 20px;
+}
+  .counselling-margin{
+  margin-top: 30px;
+}
+.photography-glyphicon-left{
+  margin-left:200px;
+
+
+}
+.photography-glyphicon-right{
+  margin-left: 300px;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 480px){
+  h2{
+    font-size: 20px;
+  }
+  .btn{
+    font-size: 12px;
+    padding: 2px;
+    margin-top: -20px;
+  }
+  .btn-lg{
+    font-size: 14px;
+    padding: 1px 2px;
+    margin-top: -28px;
+  }
+  .vertical-line{
+  border-right: none;
+ }
+ .remove-hr{
+  display:none;
+ }
+ .footerIcon{
+  margin-top: -15px;
+ }
+  .margin-for-xxs{
+    margin-left: 1px;
+  }
+ .img-about{
+    max-height: 150px;
+    max-width: 100px;
+    margin-left: 25%;
+  }
+  .client-grid{
+  min-height: 90px;
+  min-width: 90px;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+  .client-image{
+    min-height: 30px;
+    min-width: 80px;
+    margin-left: -10px;
+    
+  }
+
+   .counselling-img{
+  max-height: 190px;
+  max-width: 200px;
+  margin-left: 50px;
+}
+.counselling-img3{
+ 
+  margin-left: 80px;
+}
+.counselling-margin{
+  margin-top: 20px;
+}
+.counselling-para{
+  margin-top: 0px;
+  margin-left: 12px;
+}
+
+.content-img{
+  max-height:250px;
+  max-width:250px;
+  margin-left: 50px;
+
+}
+.photography-glyphicon-left{
+  margin-left:100px;
+
+
+}
+.photography-glyphicon-right{
+  margin-left: 150px;
+
+}
+
+
+.col-xs-offset-2{
+  margin-left: 1.33333333%;
+  }
+
+  /* Creating custom grid for a breakpoint at 480px width */
+  div.col-xxs-12 {width: 100%; }
+}
+
+
+@media screen and (max-width: 320px){
+  .client-grid{
+  margin-left: 1px;
+  min-width: 67px;px;
+  
+}
+  .client-image{
+    min-height: 30px;
+    min-width: 60px;
+    margin-left: -10px;
+    
+  }
+
+   .counselling-img2{
+    margin-right: 0px;
+    max-width: 280px;
+    max-height: 150px;
+  }
+  .counselling-img3{
+ 
+  margin-left: 0px;
+}
+.content-img{
+  max-height:200px;
+  max-width:200px;
+  margin-left: 0px;
+
+}
+.photography-glyphicon-left{
+  margin-left:60px;
+
+
+}
+.photography-glyphicon-right{
+  margin-left: 100px;
+
+}
+
+}
+
+
+
+
+
+
