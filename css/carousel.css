@@ -1,14 +1,12 @@
 div#carousel { 
-  perspective: 1200px; 
-   
-   
+  perspective: 1200px;  
   font-size:0; 
   
   overflow: hidden; 
 }
 figure#spinner { 
   transform-style: preserve-3d; 
-  height: 500px; 
+  height: 400px; 
   transform-origin: 50% 50% -500px; 
   transition: 1s; 
 } 
