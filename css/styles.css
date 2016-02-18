@@ -2,15 +2,15 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   overflow-x: hidden;
 }
 
-.navbar-default{
+.navbar-default {
 	background-color: white;
 	border-color: transparent;
-  margin-bottom: 0px;
-	
+  margin-bottom: 0px;	
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -24,14 +24,12 @@ body {
   color: #FFFFFF;
   font-weight: 700;
   margin-top: 15px;
-
 }
 
 .header{
   display: table;
   margin: 0 auto;
 }
-
 
 .dropdown-menu > li > a {
   color: gray ;
@@ -65,24 +63,23 @@ body {
 }
 
 /* For creating vertical line */
-.vertical-line{
+.vertical-line {
   border-right: 1px solid #ddd;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
-.services-heading{
+.services-heading {
   color:gray;
 }
 
-.footerIcon{
+.footerIcon {
 	font-size:36px;
   padding-top: 10px;
   padding-left: 10px;
 }
-
 
 .footer {
   position: relative;
@@ -91,62 +88,67 @@ a:hover{
   background-color:#B2C049;
 }
 
-.text-muted{
+.text-muted {
   padding-top: 10px;
   color: white;
 }
 
-.about{
+.about {
   padding-top: 50px;
 }
 
-.client-grid{
+.client-grid {
   height: 190px;
   width: 190px;
   padding-top: 65px;
   margin-right: 25px;
 }
-.counselling-img2{
+
+.counselling-img2 {
   width:700px;
   height:300px; 
 }
-.counselling-img3{
+
+.counselling-img3 {
   width:250px;
   height:250px; 
   margin-left: 20px;
   margin-top: -30px;
 }
-.counselling-para{
+
+.counselling-para {
   margin-top: 80px;
 }
-.counselling-icon{
+
+.counselling-icon {
   font-size: 40px;
   color:#428bca;
   margin-right:20px;
 }
-  .counselling-icon2{
+
+.counselling-icon2 {
   margin-right:15px;
 }
-.counselling-margin{
+
+.counselling-margin {
   margin-top: 40px;
 }
 
-.content-img{
+.content-img {
   margin-top: -30px;
 }
-.photography-glyphicon-left{
+
+.photography-glyphicon-left {
   margin-left:280px;
   color:black;
   font-size:25px;
-
 }
-.photography-glyphicon-right{
+
+.photography-glyphicon-right {
   color:black;
   font-size:25px;
   margin-left: 500px;
-
 }
-
 
 
 @media screen and (max-width: 768px){
@@ -165,8 +167,8 @@ a:hover{
     margin-top: -12px;
   }
   .footerIcon{
-  font-size:28px;
-  padding-left: 5px;
+    font-size:28px;
+    padding-left: 5px;
   }
   .about{
     padding-top: 10px;
@@ -176,57 +178,50 @@ a:hover{
     min-width: 160px;
   }
   .client-grid{
-  height: 115px;
-  width: 115px;
-  padding-top: 45px;
-  margin-right: 18px;
-}
+    height: 115px;
+    width: 115px;
+    padding-top: 45px;
+    margin-right: 18px;
+  }
   .client-image{
     min-height: 35px;
     min-width: 80px;
-    margin-left: 1px;
-    
+    margin-left: 1px;  
   }
   .lead{
     font-size: 16px;
   }
   .counselling-icon{
-  font-size: 35px;
-  margin-right:15px;
-}
-
+    font-size: 35px;
+    margin-right:15px;
+  }
   .counselling-img{
-  min-height: 260px;
-  min-width: 230px;
-}
-.counselling-img2{
-  max-width:400px;
-  max-height:175px; 
-  margin-right: 5px;
-}
-.counselling-img3{
-  width:200px;
-  height:200px; 
-  margin-left: 0px;
-  margin-top: -30px;
-}
-.counselling-para{
-  margin-top: 20px;
-}
+    min-height: 260px;
+    min-width: 230px;
+  }
+  .counselling-img2{
+    max-width:400px;
+    max-height:175px; 
+    margin-right: 5px;
+  }
+  .counselling-img3{
+    width:200px;
+    height:200px; 
+    margin-left: 0px;
+    margin-top: -30px;
+  }
+  .counselling-para{
+    margin-top: 20px;
+  }
   .counselling-margin{
-  margin-top: 30px;
-}
-.photography-glyphicon-left{
-  margin-left:200px;
-
-
-}
-.photography-glyphicon-right{
-  margin-left: 300px;
-
-}
-
-
+    margin-top: 30px;
+  }
+  .photography-glyphicon-left{
+    margin-left:200px;
+  }
+  .photography-glyphicon-right{
+    margin-left: 300px;
+  }
 
 }
 
@@ -245,14 +240,14 @@ a:hover{
     margin-top: -28px;
   }
   .vertical-line{
-  border-right: none;
- }
- .remove-hr{
-  display:none;
- }
- .footerIcon{
-  margin-top: -15px;
- }
+    border-right: none;
+  }
+  .remove-hr{
+    display:none;
+  }
+  .footerIcon{
+    margin-top: -15px;
+  }
   .margin-for-xxs{
     margin-left: 1px;
   }
@@ -262,99 +257,82 @@ a:hover{
     margin-left: 25%;
   }
   .client-grid{
-  min-height: 90px;
-  min-width: 90px;
-  margin-left: 20px;
-  margin-top: 20px;
-  
-}
+    min-height: 90px;
+    min-width: 90px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
   .client-image{
     min-height: 30px;
     min-width: 80px;
-    margin-left: -10px;
-    
+    margin-left: -10px;  
+  }
+  .counselling-img{
+    max-height: 190px;
+    max-width: 200px;
+    margin-left: 50px;
+  }
+  .counselling-img3{
+    margin-left: 80px;
+  }
+  .counselling-margin{
+    margin-top: 20px;
+  }
+  .counselling-para{
+    margin-top: 0px;
+    margin-left: 12px;
+  }
+  .content-img{
+    max-height:250px;
+    max-width:250px;
+    margin-left: 50px;
+  }
+  .photography-glyphicon-left{
+    margin-left:100px;
+  }
+  .photography-glyphicon-right{
+    margin-left: 150px;
+  }
+  .col-xs-offset-2{
+    margin-left: 1.33333333%;
+  }
+/* Creating custom grid for a breakpoint at 480px width */
+  div.col-xxs-12 {
+    width: 100%;
   }
 
-   .counselling-img{
-  max-height: 190px;
-  max-width: 200px;
-  margin-left: 50px;
-}
-.counselling-img3{
- 
-  margin-left: 80px;
-}
-.counselling-margin{
-  margin-top: 20px;
-}
-.counselling-para{
-  margin-top: 0px;
-  margin-left: 12px;
-}
-
-.content-img{
-  max-height:250px;
-  max-width:250px;
-  margin-left: 50px;
-
-}
-.photography-glyphicon-left{
-  margin-left:100px;
-
-
-}
-.photography-glyphicon-right{
-  margin-left: 150px;
-
-}
-
-
-.col-xs-offset-2{
-  margin-left: 1.33333333%;
-  }
-
-  /* Creating custom grid for a breakpoint at 480px width */
-  div.col-xxs-12 {width: 100%; }
 }
 
 
 @media screen and (max-width: 320px){
   .client-grid{
-  margin-left: 1px;
-  min-width: 67px;px;
-  
-}
+    margin-left: 1px;
+    min-width: 67px;px;
+  }
   .client-image{
     min-height: 30px;
     min-width: 60px;
-    margin-left: -10px;
-    
+    margin-left: -10px;  
   }
-
-   .counselling-img2{
+  .counselling-img2{
     margin-right: 0px;
     max-width: 280px;
     max-height: 150px;
   }
   .counselling-img3{
- 
-  margin-left: 0px;
-}
-.content-img{
-  max-height:200px;
-  max-width:200px;
-  margin-left: 0px;
-
-}
-.photography-glyphicon-left{
-  margin-left:60px;
-
-
-}
-.photography-glyphicon-right{
-  margin-left: 100px;
-
-}
+    margin-left: 0px;
+  }
+  .content-img{
+    max-height:200px;
+    max-width:200px;
+    margin-left: 0px;
+  }
+  .photography-glyphicon-left{
+    margin-left:60px;
+  }
+  .photography-glyphicon-right{
+    margin-left: 100px;
+  }
 
 }
 
