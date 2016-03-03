@@ -27,3 +27,9 @@ figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
 figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
 figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
 
+@media screen and (max-width: 768px){
+  figure#spinner{
+    height:200px;
+  }  
+}
+
